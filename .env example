@@ -1,0 +1,8 @@
+DB_HOST=
+DB_USER=
+DB_PASSWORD=
+DB_DB=
+
+JWT_TOKEN_SECRET= your super duper secret token
+
+SERVER_PORT= your parameters

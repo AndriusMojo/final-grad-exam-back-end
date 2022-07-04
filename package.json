@@ -1,0 +1,40 @@
+{
+  "name": "recipe-page",
+  "description": "## install",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "setup": "node setupdb.js",
+    "lfbe": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cirkininkas/back-end"
+  },
+  "keywords": [],
+  "author": "AM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cirkininkas/back-end/issues"
+  },
+  "homepage": "https://github.com/Cirkininkas/back-end",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "joi-password": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3"
+  }
+}
